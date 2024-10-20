@@ -30,10 +30,10 @@ export default function NewsList({ news }: Props) {
                 />
               ) : (
                 <Image
-                  src="/noimage.png"
+                  src="/no-image.png"
                   alt="No Image"
-                  width={400}
-                  height={200}
+                  width={200}
+                  height={100}
                 />
               )}
               <dl className={styles.content}>
